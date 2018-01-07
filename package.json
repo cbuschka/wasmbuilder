@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "cbuschka@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuschka/wasmbuilder/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+  },
+  "deprecated": false,
+  "description": "A wasm code buidler.",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "homepage": "https://github.com/cbuschka/wasmbuilder",
+  "keywords": [
+    "wasm",
+    "WebAssembly"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "wasmbuilder",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cbuschka/wasmbuilder.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js"
+  },
+  "version": "0.0.1"
+}
